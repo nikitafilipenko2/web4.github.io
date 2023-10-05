@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    border:0;
+
+}
+
+body{
+    font-size:14px;    
+}
+.title{
+    font-size:26px;
+    color:orange;
+}
+.container{
+    max-width:960px;
+    margin:0 auto;
+}
+.header{
+    height:120px;
+}
+.header_container{
+    display:flex;
+    
+}
+.menu_list{
+
+}
+.menu_link{
+    list-style-type: none;
+    text-decoration: none;
+}
+.image_logo{
+    width:10%;
+}
