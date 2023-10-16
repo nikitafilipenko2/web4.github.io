@@ -1,51 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
-    <title>Nikita Filipenko Web1</title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikita Filipenko Web 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesnew.css">
 </head>
 <body>
-    <header class="header">
-        <div class="content">
-            <div class="wrapper">
-                <div class="left">
-                    <div class="logo">
-                        <img src="orange.png" width=30% "alt="Логотип">
-                    </div>
-                    <div class="name">
-                        Nikita Filipenko Web2
-                    </div>
-                </div>
-                <div class="right">
-                    <nav>
-                        <ul class="list wrapper">
-                            <li>
-                                <a href="first.html">Страница 2</a>
-                            </li>
-                            <li>
-                                <a href="about/about.html">Страница 3</a>
-                            </li>
-                            <li>
-                                <a href="about/nextnext/third.html">Страница 4</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
+    <header class="mb-2">
+        <div class="container-lg">
+          <img class="mt-1" src="logo.jpg" alt="logo">
+          <div class="ht"><strong>Filipenko Web 4</strong></div>
         </div>
-    </header>
-    <main>
-        <div class="content">
-            <div class="background">
-                >
-                <h1 id="task1">Главная страница</h1>
-                <h1 class="centr">Список ссылок:</h1>
+      </header>
+  
+      <nav>
+        <div class="container-lg">
+          <ul
+            class=" nav flex-column flex-sm-row justify-content-sm-center text-center">
+            <li class="nav-item">
+              <a class="m-1 nav-link" aria-current="page" href="#task1">Links</a>
+            </li>
+            <li class="nav-item">
+              <a class="m-1 nav-link" href="#tablez">Table</a>
+            </li>
+            <li class="nav-item">
+              <a class="m-1 nav-link" href="#forma">Form</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <div class="container-fluid flex flex-column d-flex">
+        <div class="order-2 order-md-1 m-3 justify-content-center  main_list" id="elem-border">
+                
+                <h1 id="task1">Список ссылок:</h1>
                 <ul>
                     <li><a href="http://kubsu.ru/">Абсолютная ссылка на главную страницу сайта КубГУ</a></li>
                     <li><a href="https://kubsu.ru/"> Абсолютная ссылка на главную страницу сайта КубГУ в протоколе https</a></li>
-                    <li><a href="https://www.kubsu.ru/ru"><img src="image.jpg" width="400" height="200" alt="flower"></a></li>
+                    <li><a href="https://www.kubsu.ru/ru"><img src="image.jpg" width="200" height="200" alt="flower"></a></li>
                     <li>
                         <p>Список ссылок навигации сайта:</p>
                         <nav>
@@ -93,50 +88,54 @@
                 <img usemap="#infog" src="figures.png" alt="">
                 <br>
             </div>
-        </div>
-        <div class="main-table" id="elem-border">
-            <h2 class="bordered">Таблица</h2>
-            <table class="block">
-                <tr class="first">
-                    <th>Колонка 1 </th>
-                    <th>Колонка 2 </th>
-                    <th>Колонка 3 </th>
-                    <th>Колонка 4 </th>
-                </tr>
-                <tr class="second">
-                    <td colspan="2">Ячейка 11 объединенная с 12</td>
-                    <td>Ячейка 13</td>
-                    <td>Ячейка 14</td>
-                </tr>
-                <tr class="first">
-                    <td>Ячейка 21</td>
-                    <td>Ячейка 22</td>
-                    <td colspan="2">Ячейка 23 объединенная с 24</td>
-                </tr>
-                <tr class="second">
-                    <td>Ячейка 31</td>
-                    <td colspan="3">Ячейка 32 объединенная с 33 и 34</td>
-
-                </tr>
-                <tr class="first">
-                    <td colspan="2">Ячейка 41 объединенная с 42</td>
-                    <td>Ячейка 43</td>
-                    <td>Ячейка 44</td>
-                </tr>
-                <tr class="second">
-                    <td>Ячейка 51</td>
-                    <td>Ячейка 52</td>
-                    <td rowspan="2">Ячейка 53 объединенная с 63</td>
-                    <td>Ячейка 54</td>
-                </tr>
-                <tr class="first">
-                    <td>Ячейка 61</td>
-                    <td>Ячейка 62</td>
-                    <td>Ячейка 64</td>
-                </tr>
-            </table>
+      
+            <div class="order-1 order-md-2 m-3 justify-content-center main_table" id="elem-border">
+                <table >
+                    <h2  id="tablez">Таблица</h2>
+                    
+                        <tr class="first">
+                            <th>Колонка 1 </th>
+                            <th>Колонка 2 </th>
+                            <th>Колонка 3 </th>
+                            <th>Колонка 4 </th>
+                        </tr>
+                        <tr class="second">
+                            <td colspan="2">Ячейка 11 объединенная с 12</td>
+                            <td>Ячейка 13</td>
+                            <td>Ячейка 14</td>
+                        </tr>
+                        <tr class="first">
+                            <td>Ячейка 21</td>
+                            <td>Ячейка 22</td>
+                            <td colspan="2">Ячейка 23 объединенная с 24</td>
+                        </tr>
+                        <tr class="second">
+                            <td>Ячейка 31</td>
+                            <td colspan="3">Ячейка 32 объединенная с 33 и 34</td>
+        
+                        </tr>
+                        <tr class="first">
+                            <td colspan="2">Ячейка 41 объединенная с 42</td>
+                            <td>Ячейка 43</td>
+                            <td>Ячейка 44</td>
+                        </tr>
+                        <tr class="second">
+                            <td>Ячейка 51</td>
+                            <td>Ячейка 52</td>
+                            <td rowspan="2">Ячейка 53 объединенная с 63</td>
+                            <td>Ячейка 54</td>
+                        </tr>
+                        <tr class="first">
+                            <td>Ячейка 61</td>
+                            <td>Ячейка 62</td>
+                            <td>Ячейка 64</td>
+                        </tr>
+                    </table>
+               
             </div>
-            <h1 class="centr" id="form" class="bordered">Форма</h1>
+      
+            <div class="order-3 m-3 justify-content-center" id="elem-border">
+                <h1 class="centr" id="forma" class="bordered">Форма</h1>
             <form method="POST">
                 <label>
                     ФИО:<br>
@@ -189,14 +188,14 @@
                 </p>
                 <input id="down" type="submit" value="Сохранить">
             </form>
-            <footer class="footer">
-                <div class="content">
-                    <div class="wrapper">
-                        <div class="footer__text">
-                            (c) Nikita Filipenko
-                        </div>
-                    </div>
-                </div>
-            </footer>
+            </div>
+        </div>
+    
+
+    <footer class="row p-4" > 
+    
+        <div class="col-3">&copy; Филипенко Никита</div>
+    </footer>
+    
 </body>
 </html>

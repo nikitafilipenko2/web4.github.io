@@ -1,35 +1,142 @@
-*{
-    margin:0;
-    padding: 0;
-    border:0;
+
+.ht{
+    text-align: center;
+    font-size: 400%;
+   
+  }
+
+
+#elem-border{
+    
+    border: 2px solid orangered;
+    background-color: orange;
 
 }
 
-body{
-    font-size:14px;    
+
+
+footer{
+    border-top: 13px solid orangered;
+    background-color: orange ;
 }
-.title{
-    font-size:26px;
-    color:orange;
+
+
+
+.first{
+    background-color: black;
+    color:white;
 }
-.container{
-    max-width:960px;
-    margin:0 auto;
-}
-.header{
-    height:120px;
-}
-.header_container{
-    display:flex;
+.second{
+    background-color: white;
     
 }
-.menu_list{
 
-}
-.menu_link{
-    list-style-type: none;
+  
+  header img{
+   
+    float:left;
+    height: 92px;
+    width:100px;
+  }
+  
+  header{
+    
+   
+    background-color:orange;
+    height: 100px;
+    
+  }
+  .nav-item a{
+    font-size: 30px;
+    background-color:  orange;
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+  }
+  
+  .nav-item a:hover{
     text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(to left, #E85A4F, #E98074 50%, #8E8D8A);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+  }
+
+  
+  .ol{
+    list-style: none;
+    text-align: center;
+  }
+  
+  .container-lg{
+    margin-top: 2rem;
+    margin-bottom: 2rem
+  }
+  @media screen and (max-width: 600px){
+
+    .ht{
+        font-size:350%;
+    }
+  
+  }
+  
+  @media screen and (max-width: 540px){
+  
+    .ht{
+        font-size:300%;
+    }
+  
+  }
+  
+  @media screen and (max-width: 480px){
+  
+    .ht{
+        font-size:250%;
+    }
+  
+  }
+  
+  @media screen and (max-width: 420px){
+  
+    .ht{
+        font-size:200%;
+    }
+  
+  }
+  
+  @media screen and (max-width: 360px){
+  
+    .ht{
+        font-size:150%;
+    }
+  
+  }
+  @media screen and (min-width: 800px) {
+  
+    .main{
+        margin-top: 0;
+    }
+    .main_list{
+        order: 1;
+    }
+    .main_table{
+        order: 2;
+    }
 }
-.image_logo{
-    width:10%;
+.main_list
+{
+    order: 2;
+    padding: auto;
 }
+
+.main_table{
+    order: 1;
+}
+
+  
+  
+  
